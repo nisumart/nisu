@@ -1,0 +1,584 @@
+{
+  "adminPasscode": "NiShAlDaMoR143",
+  "targetEmail": "nishaldamor03@gmail.com",
+  "paymentSettings": {
+    "upiId": "7772809503@paytm",
+    "upiQrImage": "https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=upi://pay?pa=7772809503@paytm&pn=NISUMART&cu=INR",
+    "isOnlinePaymentEnabled": true,
+    "web3formsKey": ""
+  },
+  "smtpConfig": {
+    "host": "",
+    "port": 587,
+    "user": "",
+    "pass": "",
+    "from": "NISUMART Orders <orders@nisumart.com>"
+  },
+  "customers": [
+    {
+      "id": "cust-1791345100485",
+      "name": "Aakash Patel",
+      "mobile": "9826543210",
+      "passwordHash": "ceb43c8b33f1dea1b8313faabc6b5aec23a7e2c3273005c1599434a2cb1dbe7c4046665d9dd4634b1a7419c9ec393751caad9440cb31b2bed52280c5fed3d2ab",
+      "salt": "8844041d09818feebd037d6b47291708",
+      "createdAt": "2026-10-07T03:51:40.485Z"
+    }
+  ],
+  "thumbnails": [
+    {
+      "id": "thumb-1",
+      "title": "New Arrivals",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300&auto=format&fit=crop&q=80",
+      "order": 1,
+      "tag": "new_arrivals"
+    },
+    {
+      "id": "thumb-2",
+      "title": "Local MP Deals",
+      "image": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=300&auto=format&fit=crop&q=80",
+      "order": 2,
+      "tag": "local_deals"
+    },
+    {
+      "id": "thumb-3",
+      "title": "Smart Gadgets",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&auto=format&fit=crop&q=80",
+      "order": 3,
+      "tag": "smart_gadgets"
+    },
+    {
+      "id": "thumb-4",
+      "title": "Fashion & Wear",
+      "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=300&auto=format&fit=crop&q=80",
+      "order": 4,
+      "tag": "fashion"
+    },
+    {
+      "id": "thumb-5",
+      "title": "Kitchen & Home",
+      "image": "https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=300&auto=format&fit=crop&q=80",
+      "order": 5,
+      "tag": "kitchen"
+    },
+    {
+      "id": "thumb-6",
+      "title": "Under ₹499",
+      "image": "https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=300&auto=format&fit=crop&q=80",
+      "order": 6,
+      "tag": "under_499"
+    }
+  ],
+  "banners": [
+    {
+      "id": "banner-1",
+      "title": "LOCAL DEALS COMING SOON",
+      "subtitle": "Exclusive express doorstep delivery in Dewas, Hatpipliya, Bagli & Indore",
+      "image": "https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=1200&auto=format&fit=crop&q=80",
+      "badge": "MADHYA PRADESH SPECIAL",
+      "order": 1,
+      "tag": "local_deals"
+    },
+    {
+      "id": "banner-2",
+      "title": "FLAT ₹50 OFF ON ONLINE PAYMENT",
+      "subtitle": "Pay via UPI, GPay, PhonePe or Card & get instant ₹50 discount on your order",
+      "image": "https://images.unsplash.com/photo-1556742049-0a67c5574f73?w=1200&auto=format&fit=crop&q=80",
+      "badge": "EXTRA ₹50 SAVINGS",
+      "order": 2,
+      "tag": "all"
+    },
+    {
+      "id": "banner-3",
+      "title": "CASH ON DELIVERY (COD) AVAILABLE",
+      "subtitle": "Pay safely at your door across Dewas, Hatpipliya, Bagli and Indore (+₹50 COD charge)",
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&auto=format&fit=crop&q=80",
+      "badge": "VERIFIED DELIVERY",
+      "order": 3,
+      "tag": "all"
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "productId": "NISU-101",
+      "name": "Pure Cotton Rajasthani Bedspread (King Size + 2 Pillow Covers)",
+      "description": "100% pure premium cotton 220 TC bedsheet with traditional Rajasthani floral design. High durability, breathable and colorfast fabric perfect for Malwa summers.",
+      "price": 499,
+      "originalPrice": 999,
+      "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "new_arrivals",
+      "isAvailable": true,
+      "createdAt": "2025-01-10T10:00:00Z"
+    },
+    {
+      "id": "prod-2",
+      "productId": "NISU-102",
+      "name": "Pro Wireless TWS Earbuds with 40H Battery & ENC Mic",
+      "description": "Ultra-low latency Bluetooth 5.3 earbuds with crisp HD stereo bass, environmental noise cancellation (ENC) for crystal clear calls, and type-C fast charging.",
+      "price": 599,
+      "originalPrice": 1299,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "smart_gadgets",
+      "isAvailable": true,
+      "createdAt": "2025-01-10T10:00:00Z"
+    },
+    {
+      "id": "prod-3",
+      "productId": "NISU-103",
+      "name": "Active Fitness Smart Band with Heart Rate & SpO2 Monitor",
+      "description": "Color touch display with 14 sport modes, step tracking, sleep monitor, IP68 water resistance, and instant WhatsApp/Call alerts.",
+      "price": 899,
+      "originalPrice": 1899,
+      "image": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "smart_gadgets",
+      "isAvailable": true,
+      "createdAt": "2025-01-11T10:00:00Z"
+    },
+    {
+      "id": "prod-4",
+      "productId": "NISU-104",
+      "name": "Men's Classic Festive Kurta (Comfort Pure Slub Cotton)",
+      "description": "Handcrafted mandarin collar regular fit kurta. Ideal for festive gatherings, pooja, family functions, and daily comfortable ethnic wear.",
+      "price": 449,
+      "originalPrice": 899,
+      "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "fashion",
+      "isAvailable": true,
+      "createdAt": "2025-01-12T10:00:00Z"
+    },
+    {
+      "id": "prod-5",
+      "productId": "NISU-105",
+      "name": "Women's Royal Chanderi Silk Zari Border Saree with Blouse Piece",
+      "description": "Exquisite authentic Madhya Pradesh handloom weave inspired Chanderi saree with rich woven golden zari border. Includes unstitched matching blouse fabric.",
+      "price": 699,
+      "originalPrice": 1599,
+      "image": "https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "fashion",
+      "isAvailable": true,
+      "createdAt": "2025-01-12T10:00:00Z"
+    },
+    {
+      "id": "prod-6",
+      "productId": "NISU-106",
+      "name": "Multi-Utility Quick Kitchen Chopper (650ml Stainless Blades)",
+      "description": "Heavy duty manual pull cord chopper for onion, vegetables, dry fruits, and salad chopping in 10 seconds. Food-grade BPA free material.",
+      "price": 299,
+      "originalPrice": 599,
+      "image": "https://images.unsplash.com/photo-1584269600464-37b1b58a9fe7?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2025-01-13T10:00:00Z"
+    },
+    {
+      "id": "prod-7",
+      "productId": "NISU-107",
+      "name": "Electric Stainless Steel Hand Blender (250W Multi-Speed)",
+      "description": "Ergonomic hand blender for making lassi, purees, soups, and shakes with detachable stem for easy cleaning.",
+      "price": 499,
+      "originalPrice": 1099,
+      "image": "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2025-01-14T10:00:00Z"
+    },
+    {
+      "id": "prod-8",
+      "productId": "NISU-108",
+      "name": "Dewas Special Fresh Ratlami & Ujjaini Sev Combo (1 kg Pack)",
+      "description": "Crunchy, authentic spiced Malwa sev prepared in pure groundnut oil with aromatic hing, black pepper, and clove. Freshly sealed for maximum crispness.",
+      "price": 349,
+      "originalPrice": 499,
+      "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "local_deals",
+      "isAvailable": true,
+      "createdAt": "2025-01-15T10:00:00Z"
+    },
+    {
+      "id": "prod-9",
+      "productId": "NISU-109",
+      "name": "20W PD Fast Charger Adapter with Braided Type-C Cable",
+      "description": "BIS certified rapid charging wall adapter with surge protection, temperature control, and high tensile braided fast-charging cable.",
+      "price": 399,
+      "originalPrice": 799,
+      "image": "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "under_499",
+      "isAvailable": true,
+      "createdAt": "2025-01-15T10:00:00Z"
+    },
+    {
+      "id": "prod-10",
+      "productId": "NISU-110",
+      "name": "Heavy Base Tri-Ply Stainless Steel Kadai (2.6L with Glass Lid)",
+      "description": "Induction and gas compatible tri-ply kadai with even heat distribution and cool-touch riveted handles. Non-reactive healthy cooking.",
+      "price": 749,
+      "originalPrice": 1399,
+      "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=600&auto=format&fit=crop&q=80",
+      "thumbnailTag": "kitchen",
+      "isAvailable": true,
+      "createdAt": "2025-01-16T10:00:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1791346059168",
+      "orderId": "NISU-699386",
+      "customerId": null,
+      "customerName": "Test Customer",
+      "mobile": "9826123456",
+      "secondMobile": "",
+      "pinCode": "455001",
+      "city": "Dewas",
+      "state": "Madhya Pradesh",
+      "houseNo": "House 10",
+      "roadArea": "Main Road",
+      "items": [
+        {
+          "productId": "NISU-101",
+          "productName": "Pure Cotton Rajasthani Bedspread (King Size + 2 Pillow Covers)",
+          "price": 499,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&auto=format&fit=crop&q=80"
+        }
+      ],
+      "paymentMethod": "cod",
+      "baseAmount": 499,
+      "adjustmentAmount": 50,
+      "finalAmount": 549,
+      "upiTransactionId": null,
+      "paymentVerificationStatus": "Not Applicable",
+      "status": "Confirmed",
+      "createdAt": "2026-10-07T04:07:39.168Z",
+      "emailSent": false,
+      "emailError": "No active email provider configured (Set Web3Forms Key or SMTP in Admin Settings). Order recorded in outbox."
+    },
+    {
+      "id": "ord-1791345863622",
+      "orderId": "NISU-725598",
+      "customerId": null,
+      "customerName": "NISHAL DAMOR",
+      "mobile": "7772809503",
+      "secondMobile": "9575345768",
+      "pinCode": "455001",
+      "city": "Dewas",
+      "state": "Madhya Pradesh",
+      "houseNo": "26c18b19-fa58-46e0-a650-eee0a7db209d",
+      "roadArea": "26c18b19-fa58-46e0-a650-eee0a7db209d",
+      "items": [
+        {
+          "productId": "NISU-101",
+          "productName": "Pure Cotton Rajasthani Bedspread (King Size + 2 Pillow Covers)",
+          "price": 499,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&auto=format&fit=crop&q=80"
+        }
+      ],
+      "paymentMethod": "cod",
+      "baseAmount": 499,
+      "adjustmentAmount": 50,
+      "finalAmount": 549,
+      "upiTransactionId": null,
+      "paymentVerificationStatus": "Not Applicable",
+      "status": "Confirmed",
+      "createdAt": "2026-10-07T04:04:23.622Z",
+      "emailSent": false,
+      "emailError": "Web3Forms error: Web3Forms HTTP 403"
+    },
+    {
+      "id": "ord-1791345226533",
+      "orderId": "NISU-919998",
+      "customerId": null,
+      "customerName": "Rahul Chouhan",
+      "mobile": "9826112233",
+      "secondMobile": "9826445566",
+      "pinCode": "455001",
+      "city": "Dewas",
+      "state": "Madhya Pradesh",
+      "houseNo": "House 55",
+      "roadArea": "Alkapuri Colony",
+      "items": [
+        {
+          "productId": "NISU-104",
+          "productName": "Men's Classic Festive Kurta (Comfort Pure Slub Cotton)",
+          "price": 449,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=600&auto=format&fit=crop&q=80"
+        }
+      ],
+      "paymentMethod": "cod",
+      "baseAmount": 449,
+      "adjustmentAmount": 50,
+      "finalAmount": 499,
+      "upiTransactionId": null,
+      "paymentVerificationStatus": "Not Applicable",
+      "status": "Confirmed",
+      "createdAt": "2026-10-07T03:53:46.533Z",
+      "emailSent": false,
+      "emailError": "Web3Forms error: Web3Forms HTTP 403"
+    },
+    {
+      "id": "ord-1791345218222",
+      "orderId": "NISU-945522",
+      "customerId": null,
+      "customerName": "Sunil Jain",
+      "mobile": "9826334455",
+      "secondMobile": "",
+      "pinCode": "455223",
+      "city": "Hatpipliya",
+      "state": "Madhya Pradesh",
+      "houseNo": "Near Jain Mandir",
+      "roadArea": "Main Bazar",
+      "items": [
+        {
+          "productId": "NISU-102",
+          "productName": "Pro Wireless TWS Earbuds with 40H Battery & ENC Mic",
+          "price": 599,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=600&auto=format&fit=crop&q=80"
+        }
+      ],
+      "paymentMethod": "card",
+      "baseAmount": 599,
+      "adjustmentAmount": 0,
+      "finalAmount": 599,
+      "upiTransactionId": null,
+      "paymentVerificationStatus": "Verified",
+      "status": "Confirmed",
+      "createdAt": "2026-10-07T03:53:38.222Z",
+      "emailSent": false,
+      "emailError": "Web3Forms error: Web3Forms HTTP 403"
+    },
+    {
+      "id": "ord-1791345187768",
+      "orderId": "NISU-334918",
+      "customerId": null,
+      "customerName": "Deepak Verma",
+      "mobile": "9826778899",
+      "secondMobile": "",
+      "pinCode": "455227",
+      "city": "Bagli",
+      "state": "Madhya Pradesh",
+      "houseNo": "Ward 4, Near Tehsil",
+      "roadArea": "Kantafor Road",
+      "items": [
+        {
+          "productId": "NISU-101",
+          "productName": "Pure Cotton Rajasthani Bedspread (King Size + 2 Pillow Covers)",
+          "price": 499,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&auto=format&fit=crop&q=80"
+        }
+      ],
+      "paymentMethod": "online",
+      "baseAmount": 499,
+      "adjustmentAmount": -50,
+      "finalAmount": 449,
+      "upiTransactionId": "UTR-482019482019",
+      "paymentVerificationStatus": "Verified",
+      "status": "Confirmed",
+      "createdAt": "2026-10-07T03:53:07.768Z",
+      "emailSent": false,
+      "emailError": "Web3Forms error: Web3Forms HTTP 403"
+    },
+    {
+      "id": "ord-1791343020153",
+      "orderId": "NISU-734818",
+      "customerName": "NISHAL DAMOR",
+      "mobile": "7772809503",
+      "secondMobile": "9575345768",
+      "pinCode": "455223",
+      "city": "Dewas",
+      "state": "Madhya Pradesh",
+      "houseNo": "26c18b19-fa58-46e0-a650-eee0a7db209d",
+      "roadArea": "26c18b19-fa58-46e0-a650-eee0a7db209d",
+      "items": [
+        {
+          "productId": "NISU-101",
+          "productName": "Pure Cotton Rajasthani Bedspread (King Size + 2 Pillow Covers)",
+          "price": 499,
+          "quantity": 1,
+          "image": "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?w=600&auto=format&fit=crop&q=80"
+        }
+      ],
+      "paymentMethod": "online",
+      "baseAmount": 499,
+      "adjustmentAmount": -50,
+      "finalAmount": 449,
+      "status": "Confirmed",
+      "createdAt": "2026-10-07T03:17:00.153Z",
+      "emailSent": true
+    },
+    {
+      "id": "ord-1791342808293",
+      "orderId": "NISU-194299",
+      "customerName": "Ramesh Sharma",
+      "mobile": "9826123456",
+      "secondMobile": "",
+      "pinCode": "452001",
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "houseNo": "Flat 401, Sapphire Heights",
+      "roadArea": "Vijay Nagar, Near Mall",
+      "items": [
+        {
+          "productId": "NISU-101",
+          "productName": "Pure Cotton Rajasthani Bedspread",
+          "price": 500,
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "cod",
+      "baseAmount": 500,
+      "adjustmentAmount": 50,
+      "finalAmount": 550,
+      "status": "Confirmed",
+      "createdAt": "2026-10-07T03:13:28.293Z",
+      "emailSent": true
+    },
+    {
+      "id": "ord-1791342800296",
+      "orderId": "NISU-972352",
+      "customerName": "Nishal Damor",
+      "mobile": "9826011223",
+      "secondMobile": "9826099887",
+      "pinCode": "455001",
+      "city": "Dewas",
+      "state": "Madhya Pradesh",
+      "houseNo": "House 12, Civil Lines",
+      "roadArea": "Near Bus Station Road",
+      "items": [
+        {
+          "productId": "NISU-101",
+          "productName": "Pure Cotton Rajasthani Bedspread",
+          "price": 500,
+          "quantity": 1
+        }
+      ],
+      "paymentMethod": "online",
+      "baseAmount": 500,
+      "adjustmentAmount": -50,
+      "finalAmount": 450,
+      "status": "Confirmed",
+      "createdAt": "2026-10-07T03:13:20.296Z",
+      "emailSent": true
+    }
+  ],
+  "emailOutbox": [
+    {
+      "id": "email-1791346059176",
+      "orderId": "NISU-699386",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NISUMART ORDER] NISU-699386 - ₹549 from Test Customer (Dewas)",
+      "sentAt": "2026-10-07T04:07:39.176Z",
+      "status": "Failed",
+      "provider": "None",
+      "error": "No active email provider configured (Set Web3Forms Key or SMTP in Admin Settings). Order recorded in outbox.",
+      "body": "========================================\nNEW NISUMART ORDER NOTIFICATION\n========================================\nOrder ID: NISU-699386\nOrder Date & Time: 7/10/2026, 9:37:39 am\n\nCUSTOMER DETAILS:\nCustomer Name: Test Customer\nPrimary Mobile: +91 9826123456\nSecond Mobile: None\n\nDELIVERY ADDRESS (MADHYA PRADESH):\nHouse / Building Name: House 10\nRoad Name / Area / Colony: Main Road\nCity: Dewas\nState: Madhya Pradesh\nPIN Code: 455001\n\nPRODUCTS ORDERED:\n- Pure Cotton Rajasthani Bedspread (King Size + 2 Pillow Covers) (ID: NISU-101) x 1 @ ₹499 = ₹499\n\nPAYMENT & TOTAL BREAKDOWN:\nBase Amount: ₹499\nPayment Method: COD\nCOD Doorstep Charge: +₹50\n\nFinal Order Total: ₹549\nUPI Transaction ID / UTR: N/A\nPayment Verification Status: Not Applicable\n\nRecipient Email: nishaldamor03@gmail.com\nCustomer Support: 7772809503\n========================================"
+    },
+    {
+      "id": "email-1791345863818",
+      "orderId": "NISU-725598",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NISUMART ORDER] NISU-725598 - ₹549 from NISHAL DAMOR (Dewas)",
+      "sentAt": "2026-10-07T04:04:23.818Z",
+      "status": "Failed",
+      "provider": "None",
+      "error": "Web3Forms error: Web3Forms HTTP 403",
+      "body": "========================================\nNEW NISUMART ORDER NOTIFICATION\n========================================\nOrder ID: NISU-725598\nOrder Date & Time: 7/10/2026, 9:34:23 am\n\nCUSTOMER DETAILS:\nCustomer Name: NISHAL DAMOR\nPrimary Mobile: +91 7772809503\nSecond Mobile: +91 9575345768\n\nDELIVERY ADDRESS (MADHYA PRADESH):\nHouse / Building Name: 26c18b19-fa58-46e0-a650-eee0a7db209d\nRoad Name / Area / Colony: 26c18b19-fa58-46e0-a650-eee0a7db209d\nCity: Dewas\nState: Madhya Pradesh\nPIN Code: 455001\n\nPRODUCTS ORDERED:\n- Pure Cotton Rajasthani Bedspread (King Size + 2 Pillow Covers) (ID: NISU-101) x 1 @ ₹499 = ₹499\n\nPAYMENT & TOTAL BREAKDOWN:\nBase Amount: ₹499\nPayment Method: COD\nCOD Doorstep Charge: +₹50\n\nFinal Order Total: ₹549\nUPI Transaction ID / UTR: N/A\nPayment Verification Status: Not Applicable\n\nRecipient Email: nishaldamor03@gmail.com\nCustomer Support: 7772809503\n========================================"
+    },
+    {
+      "id": "email-1791345246546",
+      "orderId": "NISU-TEST-7278",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NISUMART ORDER] NISU-TEST-7278 - ₹450 from Test Admin Dispatch (Dewas)",
+      "sentAt": "2026-10-07T03:54:06.546Z",
+      "status": "Failed",
+      "provider": "None",
+      "error": "Web3Forms error: Web3Forms HTTP 403",
+      "body": "========================================\nNEW NISUMART ORDER NOTIFICATION\n========================================\nOrder ID: NISU-TEST-7278\nOrder Date & Time: 7/10/2026, 9:24:06 am\n\nCUSTOMER DETAILS:\nCustomer Name: Test Admin Dispatch\nPrimary Mobile: +91 7772809503\nSecond Mobile: None\n\nDELIVERY ADDRESS (MADHYA PRADESH):\nHouse / Building Name: Plot 10, Station Road\nRoad Name / Area / Colony: Near Main Market\nCity: Dewas\nState: Madhya Pradesh\nPIN Code: 455001\n\nPRODUCTS ORDERED:\n- Sample Product for Email Diagnostic (ID: NISU-101) x 1 @ ₹500 = ₹500\n\nPAYMENT & TOTAL BREAKDOWN:\nBase Amount: ₹500\nPayment Method: ONLINE\n\nOnline Payment Discount: -₹50\nFinal Order Total: ₹450\nUPI Transaction ID / UTR: TEST-UTR-998877\nPayment Verification Status: Pending Verification\n\nRecipient Email: nishaldamor03@gmail.com\nCustomer Support: 7772809503\n========================================"
+    },
+    {
+      "id": "email-1791345226610",
+      "orderId": "NISU-919998",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NISUMART ORDER] NISU-919998 - ₹499 from Rahul Chouhan (Dewas)",
+      "sentAt": "2026-10-07T03:53:46.610Z",
+      "status": "Failed",
+      "provider": "None",
+      "error": "Web3Forms error: Web3Forms HTTP 403",
+      "body": "========================================\nNEW NISUMART ORDER NOTIFICATION\n========================================\nOrder ID: NISU-919998\nOrder Date & Time: 7/10/2026, 9:23:46 am\n\nCUSTOMER DETAILS:\nCustomer Name: Rahul Chouhan\nPrimary Mobile: +91 9826112233\nSecond Mobile: +91 9826445566\n\nDELIVERY ADDRESS (MADHYA PRADESH):\nHouse / Building Name: House 55\nRoad Name / Area / Colony: Alkapuri Colony\nCity: Dewas\nState: Madhya Pradesh\nPIN Code: 455001\n\nPRODUCTS ORDERED:\n- Men's Classic Festive Kurta (Comfort Pure Slub Cotton) (ID: NISU-104) x 1 @ ₹449 = ₹449\n\nPAYMENT & TOTAL BREAKDOWN:\nBase Amount: ₹449\nPayment Method: COD\nCOD Doorstep Charge: +₹50\n\nFinal Order Total: ₹499\nUPI Transaction ID / UTR: N/A\nPayment Verification Status: Not Applicable\n\nRecipient Email: nishaldamor03@gmail.com\nCustomer Support: 7772809503\n========================================"
+    },
+    {
+      "id": "email-1791345218301",
+      "orderId": "NISU-945522",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NISUMART ORDER] NISU-945522 - ₹599 from Sunil Jain (Hatpipliya)",
+      "sentAt": "2026-10-07T03:53:38.301Z",
+      "status": "Failed",
+      "provider": "None",
+      "error": "Web3Forms error: Web3Forms HTTP 403",
+      "body": "========================================\nNEW NISUMART ORDER NOTIFICATION\n========================================\nOrder ID: NISU-945522\nOrder Date & Time: 7/10/2026, 9:23:38 am\n\nCUSTOMER DETAILS:\nCustomer Name: Sunil Jain\nPrimary Mobile: +91 9826334455\nSecond Mobile: None\n\nDELIVERY ADDRESS (MADHYA PRADESH):\nHouse / Building Name: Near Jain Mandir\nRoad Name / Area / Colony: Main Bazar\nCity: Hatpipliya\nState: Madhya Pradesh\nPIN Code: 455223\n\nPRODUCTS ORDERED:\n- Pro Wireless TWS Earbuds with 40H Battery & ENC Mic (ID: NISU-102) x 1 @ ₹599 = ₹599\n\nPAYMENT & TOTAL BREAKDOWN:\nBase Amount: ₹599\nPayment Method: CARD\n\n\nFinal Order Total: ₹599\nUPI Transaction ID / UTR: N/A\nPayment Verification Status: Verified\n\nRecipient Email: nishaldamor03@gmail.com\nCustomer Support: 7772809503\n========================================"
+    },
+    {
+      "id": "email-1791345188074",
+      "orderId": "NISU-334918",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NISUMART ORDER] NISU-334918 - ₹449 from Deepak Verma (Bagli)",
+      "sentAt": "2026-10-07T03:53:08.074Z",
+      "status": "Failed",
+      "provider": "None",
+      "error": "Web3Forms error: Web3Forms HTTP 403",
+      "body": "========================================\nNEW NISUMART ORDER NOTIFICATION\n========================================\nOrder ID: NISU-334918\nOrder Date & Time: 7/10/2026, 9:23:07 am\n\nCUSTOMER DETAILS:\nCustomer Name: Deepak Verma\nPrimary Mobile: +91 9826778899\nSecond Mobile: None\n\nDELIVERY ADDRESS (MADHYA PRADESH):\nHouse / Building Name: Ward 4, Near Tehsil\nRoad Name / Area / Colony: Kantafor Road\nCity: Bagli\nState: Madhya Pradesh\nPIN Code: 455227\n\nPRODUCTS ORDERED:\n- Pure Cotton Rajasthani Bedspread (King Size + 2 Pillow Covers) (ID: NISU-101) x 1 @ ₹499 = ₹499\n\nPAYMENT & TOTAL BREAKDOWN:\nBase Amount: ₹499\nPayment Method: ONLINE\n\nOnline Payment Discount: -₹50\nFinal Order Total: ₹449\nUPI Transaction ID / UTR: UTR-482019482019\nPayment Verification Status: Pending Verification\n\nRecipient Email: nishaldamor03@gmail.com\nCustomer Support: 7772809503\n========================================"
+    },
+    {
+      "id": "email-1791343173447",
+      "orderId": "NISU-TEST-999",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NEW NISUMART ORDER] NISU-TEST-999 - ₹450 from Test Admin Dispatch (Dewas)",
+      "sentAt": "2026-10-07T03:19:33.447Z",
+      "status": "Delivered",
+      "error": null,
+      "previewHtml": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"utf-8\">\n      <style>\n        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #0f172a; margin: 0; padding: 20px; }\n        .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }\n        .header { background: #0f172a; color: #ffffff; padding: 24px; text-align: center; }\n        .header h1 { margin: 0; font-size: 24px; letter-spacing: 1px; color: #10b981; }\n        .badge { display: inline-block; padding: 4px 10px; background: rgba(16, 185, 129, 0.2); color: #10b981; border-radius: 20px; font-size: 12px; font-weight: 600; margin-top: 8px; }\n        .content { padding: 24px; }\n        .section-title { font-size: 14px; text-transform: uppercase; color: #64748b; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px; }\n        .info-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 14px; line-height: 1.6; }\n        table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 20px; }\n        th { background: #f1f5f9; padding: 10px; text-align: left; font-size: 12px; color: #475569; text-transform: uppercase; }\n        .total-row { font-size: 16px; font-weight: 700; color: #0f172a; }\n        .footer { background: #f1f5f9; padding: 16px; text-align: center; font-size: 12px; color: #64748b; border-top: 1px solid #e2e8f0; }\n      </style>\n    </head>\n    <body>\n      <div class=\"container\">\n        <div class=\"header\">\n          <h1>NISUMART</h1>\n          <p style=\"margin: 4px 0 0 0; font-size: 13px; color: #94a3b8;\">NEW CUSTOMER ORDER RECEIVED</p>\n          <div class=\"badge\">Order ID: NISU-TEST-999</div>\n        </div>\n        <div class=\"content\">\n          <div class=\"section-title\">Customer Information</div>\n          <div class=\"info-card\">\n            <strong>Customer Name:</strong> Test Admin Dispatch<br/>\n            <strong>Primary Mobile:</strong> <a href=\"tel:9826012345\" style=\"color: #0284c7; text-decoration: none; font-weight: 600;\">+91 9826012345</a><br/>\n            <strong>Second Mobile:</strong> <a href=\"tel:9826054321\" style=\"color: #0284c7; text-decoration: none;\">+91 9826054321</a><br/>\n            <strong>Order Date & Time:</strong> 7/10/2026, 8:49:33 am\n          </div>\n\n          <div class=\"section-title\">Delivery Address (Madhya Pradesh)</div>\n          <div class=\"info-card\">\n            <strong>House / Building:</strong> Plot 42, Civil Lines<br/>\n            <strong>Road / Colony / Area:</strong> Near Bus Stand, Station Road<br/>\n            <strong>City:</strong> <span style=\"background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600;\">Dewas</span><br/>\n            <strong>State:</strong> Madhya Pradesh<br/>\n            <strong>PIN Code:</strong> 455001\n          </div>\n\n          <div class=\"section-title\">Items Ordered</div>\n          <table>\n            <thead>\n              <tr>\n                <th>Product</th>\n                <th style=\"text-align: center;\">Qty</th>\n                <th style=\"text-align: right;\">Rate</th>\n                <th style=\"text-align: right;\">Total</th>\n              </tr>\n            </thead>\n            <tbody>\n              \n    <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n      <td style=\"padding: 10px; font-weight: 500;\">\n        Sample Product for Email Verification <br/>\n        <span style=\"font-size: 11px; color: #64748b;\">Item ID: NISU-101</span>\n      </td>\n      <td style=\"padding: 10px; text-align: center;\">1</td>\n      <td style=\"padding: 10px; text-align: right;\">₹500</td>\n      <td style=\"padding: 10px; text-align: right; font-weight: 600;\">₹500</td>\n    </tr>\n  \n            </tbody>\n          </table>\n\n          <div class=\"section-title\">Payment & Pricing Breakdown</div>\n          <div class=\"info-card\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Base Subtotal:</span>\n              <span>₹500</span>\n            </div>\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Payment Mode:</span>\n              <strong style=\"text-transform: uppercase;\">Online Payment (UPI/Netbanking)</strong>\n            </div>\n            \n            <div style=\"display: flex; justify-content: space-between; color: #16a34a; margin-bottom: 6px;\">\n                    <span>Online Payment Discount:</span>\n                    <span>-₹50</span>\n                  </div>\n            <div style=\"border-top: 1px dashed #cbd5e1; padding-top: 8px; margin-top: 8px; display: flex; justify-content: space-between;\" class=\"total-row\">\n              <span>Final Order Total:</span>\n              <span style=\"color: #10b981;\">₹450</span>\n            </div>\n          </div>\n        </div>\n        <div class=\"footer\">\n          This order notification was automatically generated by the NISUMART E-Commerce Engine.<br/>\n          Recipient Target: nishaldamor03@gmail.com\n        </div>\n      </div>\n    </body>\n    </html>\n  "
+    },
+    {
+      "id": "email-1791343020162",
+      "orderId": "NISU-734818",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NEW NISUMART ORDER] NISU-734818 - ₹449 from NISHAL DAMOR (Dewas)",
+      "sentAt": "2026-10-07T03:17:00.162Z",
+      "status": "Delivered",
+      "error": null,
+      "previewHtml": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"utf-8\">\n      <style>\n        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #0f172a; margin: 0; padding: 20px; }\n        .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }\n        .header { background: #0f172a; color: #ffffff; padding: 24px; text-align: center; }\n        .header h1 { margin: 0; font-size: 24px; letter-spacing: 1px; color: #10b981; }\n        .badge { display: inline-block; padding: 4px 10px; background: rgba(16, 185, 129, 0.2); color: #10b981; border-radius: 20px; font-size: 12px; font-weight: 600; margin-top: 8px; }\n        .content { padding: 24px; }\n        .section-title { font-size: 14px; text-transform: uppercase; color: #64748b; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px; }\n        .info-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 14px; line-height: 1.6; }\n        table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 20px; }\n        th { background: #f1f5f9; padding: 10px; text-align: left; font-size: 12px; color: #475569; text-transform: uppercase; }\n        .total-row { font-size: 16px; font-weight: 700; color: #0f172a; }\n        .footer { background: #f1f5f9; padding: 16px; text-align: center; font-size: 12px; color: #64748b; border-top: 1px solid #e2e8f0; }\n      </style>\n    </head>\n    <body>\n      <div class=\"container\">\n        <div class=\"header\">\n          <h1>NISUMART</h1>\n          <p style=\"margin: 4px 0 0 0; font-size: 13px; color: #94a3b8;\">NEW CUSTOMER ORDER RECEIVED</p>\n          <div class=\"badge\">Order ID: NISU-734818</div>\n        </div>\n        <div class=\"content\">\n          <div class=\"section-title\">Customer Information</div>\n          <div class=\"info-card\">\n            <strong>Customer Name:</strong> NISHAL DAMOR<br/>\n            <strong>Primary Mobile:</strong> <a href=\"tel:7772809503\" style=\"color: #0284c7; text-decoration: none; font-weight: 600;\">+91 7772809503</a><br/>\n            <strong>Second Mobile:</strong> <a href=\"tel:9575345768\" style=\"color: #0284c7; text-decoration: none;\">+91 9575345768</a><br/>\n            <strong>Order Date & Time:</strong> 7/10/2026, 8:47:00 am\n          </div>\n\n          <div class=\"section-title\">Delivery Address (Madhya Pradesh)</div>\n          <div class=\"info-card\">\n            <strong>House / Building:</strong> 26c18b19-fa58-46e0-a650-eee0a7db209d<br/>\n            <strong>Road / Colony / Area:</strong> 26c18b19-fa58-46e0-a650-eee0a7db209d<br/>\n            <strong>City:</strong> <span style=\"background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600;\">Dewas</span><br/>\n            <strong>State:</strong> Madhya Pradesh<br/>\n            <strong>PIN Code:</strong> 455223\n          </div>\n\n          <div class=\"section-title\">Items Ordered</div>\n          <table>\n            <thead>\n              <tr>\n                <th>Product</th>\n                <th style=\"text-align: center;\">Qty</th>\n                <th style=\"text-align: right;\">Rate</th>\n                <th style=\"text-align: right;\">Total</th>\n              </tr>\n            </thead>\n            <tbody>\n              \n    <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n      <td style=\"padding: 10px; font-weight: 500;\">\n        Pure Cotton Rajasthani Bedspread (King Size + 2 Pillow Covers) <br/>\n        <span style=\"font-size: 11px; color: #64748b;\">Item ID: NISU-101</span>\n      </td>\n      <td style=\"padding: 10px; text-align: center;\">1</td>\n      <td style=\"padding: 10px; text-align: right;\">₹499</td>\n      <td style=\"padding: 10px; text-align: right; font-weight: 600;\">₹499</td>\n    </tr>\n  \n            </tbody>\n          </table>\n\n          <div class=\"section-title\">Payment & Pricing Breakdown</div>\n          <div class=\"info-card\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Base Subtotal:</span>\n              <span>₹499</span>\n            </div>\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Payment Mode:</span>\n              <strong style=\"text-transform: uppercase;\">Online Payment (UPI/Netbanking)</strong>\n            </div>\n            \n            <div style=\"display: flex; justify-content: space-between; color: #16a34a; margin-bottom: 6px;\">\n                    <span>Online Payment Discount:</span>\n                    <span>-₹50</span>\n                  </div>\n            <div style=\"border-top: 1px dashed #cbd5e1; padding-top: 8px; margin-top: 8px; display: flex; justify-content: space-between;\" class=\"total-row\">\n              <span>Final Order Total:</span>\n              <span style=\"color: #10b981;\">₹449</span>\n            </div>\n          </div>\n        </div>\n        <div class=\"footer\">\n          This order notification was automatically generated by the NISUMART E-Commerce Engine.<br/>\n          Recipient Target: nishaldamor03@gmail.com\n        </div>\n      </div>\n    </body>\n    </html>\n  "
+    },
+    {
+      "id": "email-1791342832206",
+      "orderId": "NISU-TEST-999",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NEW NISUMART ORDER] NISU-TEST-999 - ₹450 from Test Admin Dispatch (Dewas)",
+      "sentAt": "2026-10-07T03:13:52.206Z",
+      "status": "Delivered",
+      "error": null,
+      "previewHtml": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"utf-8\">\n      <style>\n        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #0f172a; margin: 0; padding: 20px; }\n        .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }\n        .header { background: #0f172a; color: #ffffff; padding: 24px; text-align: center; }\n        .header h1 { margin: 0; font-size: 24px; letter-spacing: 1px; color: #10b981; }\n        .badge { display: inline-block; padding: 4px 10px; background: rgba(16, 185, 129, 0.2); color: #10b981; border-radius: 20px; font-size: 12px; font-weight: 600; margin-top: 8px; }\n        .content { padding: 24px; }\n        .section-title { font-size: 14px; text-transform: uppercase; color: #64748b; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px; }\n        .info-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 14px; line-height: 1.6; }\n        table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 20px; }\n        th { background: #f1f5f9; padding: 10px; text-align: left; font-size: 12px; color: #475569; text-transform: uppercase; }\n        .total-row { font-size: 16px; font-weight: 700; color: #0f172a; }\n        .footer { background: #f1f5f9; padding: 16px; text-align: center; font-size: 12px; color: #64748b; border-top: 1px solid #e2e8f0; }\n      </style>\n    </head>\n    <body>\n      <div class=\"container\">\n        <div class=\"header\">\n          <h1>NISUMART</h1>\n          <p style=\"margin: 4px 0 0 0; font-size: 13px; color: #94a3b8;\">NEW CUSTOMER ORDER RECEIVED</p>\n          <div class=\"badge\">Order ID: NISU-TEST-999</div>\n        </div>\n        <div class=\"content\">\n          <div class=\"section-title\">Customer Information</div>\n          <div class=\"info-card\">\n            <strong>Customer Name:</strong> Test Admin Dispatch<br/>\n            <strong>Primary Mobile:</strong> <a href=\"tel:9826012345\" style=\"color: #0284c7; text-decoration: none; font-weight: 600;\">+91 9826012345</a><br/>\n            <strong>Second Mobile:</strong> <a href=\"tel:9826054321\" style=\"color: #0284c7; text-decoration: none;\">+91 9826054321</a><br/>\n            <strong>Order Date & Time:</strong> 7/10/2026, 8:43:52 am\n          </div>\n\n          <div class=\"section-title\">Delivery Address (Madhya Pradesh)</div>\n          <div class=\"info-card\">\n            <strong>House / Building:</strong> Plot 42, Civil Lines<br/>\n            <strong>Road / Colony / Area:</strong> Near Bus Stand, Station Road<br/>\n            <strong>City:</strong> <span style=\"background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600;\">Dewas</span><br/>\n            <strong>State:</strong> Madhya Pradesh<br/>\n            <strong>PIN Code:</strong> 455001\n          </div>\n\n          <div class=\"section-title\">Items Ordered</div>\n          <table>\n            <thead>\n              <tr>\n                <th>Product</th>\n                <th style=\"text-align: center;\">Qty</th>\n                <th style=\"text-align: right;\">Rate</th>\n                <th style=\"text-align: right;\">Total</th>\n              </tr>\n            </thead>\n            <tbody>\n              \n    <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n      <td style=\"padding: 10px; font-weight: 500;\">\n        Sample Product for Email Verification <br/>\n        <span style=\"font-size: 11px; color: #64748b;\">Item ID: NISU-101</span>\n      </td>\n      <td style=\"padding: 10px; text-align: center;\">1</td>\n      <td style=\"padding: 10px; text-align: right;\">₹500</td>\n      <td style=\"padding: 10px; text-align: right; font-weight: 600;\">₹500</td>\n    </tr>\n  \n            </tbody>\n          </table>\n\n          <div class=\"section-title\">Payment & Pricing Breakdown</div>\n          <div class=\"info-card\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Base Subtotal:</span>\n              <span>₹500</span>\n            </div>\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Payment Mode:</span>\n              <strong style=\"text-transform: uppercase;\">Online Payment (UPI/Netbanking)</strong>\n            </div>\n            \n            <div style=\"display: flex; justify-content: space-between; color: #16a34a; margin-bottom: 6px;\">\n                    <span>Online Payment Discount:</span>\n                    <span>-₹50</span>\n                  </div>\n            <div style=\"border-top: 1px dashed #cbd5e1; padding-top: 8px; margin-top: 8px; display: flex; justify-content: space-between;\" class=\"total-row\">\n              <span>Final Order Total:</span>\n              <span style=\"color: #10b981;\">₹450</span>\n            </div>\n          </div>\n        </div>\n        <div class=\"footer\">\n          This order notification was automatically generated by the NISUMART E-Commerce Engine.<br/>\n          Recipient Target: nishaldamor03@gmail.com\n        </div>\n      </div>\n    </body>\n    </html>\n  "
+    },
+    {
+      "id": "email-1791342808296",
+      "orderId": "NISU-194299",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NEW NISUMART ORDER] NISU-194299 - ₹550 from Ramesh Sharma (Indore)",
+      "sentAt": "2026-10-07T03:13:28.296Z",
+      "status": "Delivered",
+      "error": null,
+      "previewHtml": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"utf-8\">\n      <style>\n        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #0f172a; margin: 0; padding: 20px; }\n        .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }\n        .header { background: #0f172a; color: #ffffff; padding: 24px; text-align: center; }\n        .header h1 { margin: 0; font-size: 24px; letter-spacing: 1px; color: #10b981; }\n        .badge { display: inline-block; padding: 4px 10px; background: rgba(16, 185, 129, 0.2); color: #10b981; border-radius: 20px; font-size: 12px; font-weight: 600; margin-top: 8px; }\n        .content { padding: 24px; }\n        .section-title { font-size: 14px; text-transform: uppercase; color: #64748b; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px; }\n        .info-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 14px; line-height: 1.6; }\n        table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 20px; }\n        th { background: #f1f5f9; padding: 10px; text-align: left; font-size: 12px; color: #475569; text-transform: uppercase; }\n        .total-row { font-size: 16px; font-weight: 700; color: #0f172a; }\n        .footer { background: #f1f5f9; padding: 16px; text-align: center; font-size: 12px; color: #64748b; border-top: 1px solid #e2e8f0; }\n      </style>\n    </head>\n    <body>\n      <div class=\"container\">\n        <div class=\"header\">\n          <h1>NISUMART</h1>\n          <p style=\"margin: 4px 0 0 0; font-size: 13px; color: #94a3b8;\">NEW CUSTOMER ORDER RECEIVED</p>\n          <div class=\"badge\">Order ID: NISU-194299</div>\n        </div>\n        <div class=\"content\">\n          <div class=\"section-title\">Customer Information</div>\n          <div class=\"info-card\">\n            <strong>Customer Name:</strong> Ramesh Sharma<br/>\n            <strong>Primary Mobile:</strong> <a href=\"tel:9826123456\" style=\"color: #0284c7; text-decoration: none; font-weight: 600;\">+91 9826123456</a><br/>\n            \n            <strong>Order Date & Time:</strong> 7/10/2026, 8:43:28 am\n          </div>\n\n          <div class=\"section-title\">Delivery Address (Madhya Pradesh)</div>\n          <div class=\"info-card\">\n            <strong>House / Building:</strong> Flat 401, Sapphire Heights<br/>\n            <strong>Road / Colony / Area:</strong> Vijay Nagar, Near Mall<br/>\n            <strong>City:</strong> <span style=\"background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600;\">Indore</span><br/>\n            <strong>State:</strong> Madhya Pradesh<br/>\n            <strong>PIN Code:</strong> 452001\n          </div>\n\n          <div class=\"section-title\">Items Ordered</div>\n          <table>\n            <thead>\n              <tr>\n                <th>Product</th>\n                <th style=\"text-align: center;\">Qty</th>\n                <th style=\"text-align: right;\">Rate</th>\n                <th style=\"text-align: right;\">Total</th>\n              </tr>\n            </thead>\n            <tbody>\n              \n    <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n      <td style=\"padding: 10px; font-weight: 500;\">\n        Pure Cotton Rajasthani Bedspread <br/>\n        <span style=\"font-size: 11px; color: #64748b;\">Item ID: NISU-101</span>\n      </td>\n      <td style=\"padding: 10px; text-align: center;\">1</td>\n      <td style=\"padding: 10px; text-align: right;\">₹500</td>\n      <td style=\"padding: 10px; text-align: right; font-weight: 600;\">₹500</td>\n    </tr>\n  \n            </tbody>\n          </table>\n\n          <div class=\"section-title\">Payment & Pricing Breakdown</div>\n          <div class=\"info-card\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Base Subtotal:</span>\n              <span>₹500</span>\n            </div>\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Payment Mode:</span>\n              <strong style=\"text-transform: uppercase;\">Cash on Delivery (COD)</strong>\n            </div>\n            <div style=\"display: flex; justify-content: space-between; color: #d97706; margin-bottom: 6px;\">\n                    <span>COD Handling Fee:</span>\n                    <span>+₹50</span>\n                  </div>\n            \n            <div style=\"border-top: 1px dashed #cbd5e1; padding-top: 8px; margin-top: 8px; display: flex; justify-content: space-between;\" class=\"total-row\">\n              <span>Final Order Total:</span>\n              <span style=\"color: #10b981;\">₹550</span>\n            </div>\n          </div>\n        </div>\n        <div class=\"footer\">\n          This order notification was automatically generated by the NISUMART E-Commerce Engine.<br/>\n          Recipient Target: nishaldamor03@gmail.com\n        </div>\n      </div>\n    </body>\n    </html>\n  "
+    },
+    {
+      "id": "email-1791342800299",
+      "orderId": "NISU-972352",
+      "to": "nishaldamor03@gmail.com",
+      "subject": "🛒 [NEW NISUMART ORDER] NISU-972352 - ₹450 from Nishal Damor (Dewas)",
+      "sentAt": "2026-10-07T03:13:20.299Z",
+      "status": "Delivered",
+      "error": null,
+      "previewHtml": "\n    <!DOCTYPE html>\n    <html>\n    <head>\n      <meta charset=\"utf-8\">\n      <style>\n        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background-color: #f8fafc; color: #0f172a; margin: 0; padding: 20px; }\n        .container { max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05); }\n        .header { background: #0f172a; color: #ffffff; padding: 24px; text-align: center; }\n        .header h1 { margin: 0; font-size: 24px; letter-spacing: 1px; color: #10b981; }\n        .badge { display: inline-block; padding: 4px 10px; background: rgba(16, 185, 129, 0.2); color: #10b981; border-radius: 20px; font-size: 12px; font-weight: 600; margin-top: 8px; }\n        .content { padding: 24px; }\n        .section-title { font-size: 14px; text-transform: uppercase; color: #64748b; font-weight: 700; margin-bottom: 10px; letter-spacing: 0.5px; }\n        .info-card { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 14px; margin-bottom: 20px; font-size: 14px; line-height: 1.6; }\n        table { width: 100%; border-collapse: collapse; font-size: 13px; margin-bottom: 20px; }\n        th { background: #f1f5f9; padding: 10px; text-align: left; font-size: 12px; color: #475569; text-transform: uppercase; }\n        .total-row { font-size: 16px; font-weight: 700; color: #0f172a; }\n        .footer { background: #f1f5f9; padding: 16px; text-align: center; font-size: 12px; color: #64748b; border-top: 1px solid #e2e8f0; }\n      </style>\n    </head>\n    <body>\n      <div class=\"container\">\n        <div class=\"header\">\n          <h1>NISUMART</h1>\n          <p style=\"margin: 4px 0 0 0; font-size: 13px; color: #94a3b8;\">NEW CUSTOMER ORDER RECEIVED</p>\n          <div class=\"badge\">Order ID: NISU-972352</div>\n        </div>\n        <div class=\"content\">\n          <div class=\"section-title\">Customer Information</div>\n          <div class=\"info-card\">\n            <strong>Customer Name:</strong> Nishal Damor<br/>\n            <strong>Primary Mobile:</strong> <a href=\"tel:9826011223\" style=\"color: #0284c7; text-decoration: none; font-weight: 600;\">+91 9826011223</a><br/>\n            <strong>Second Mobile:</strong> <a href=\"tel:9826099887\" style=\"color: #0284c7; text-decoration: none;\">+91 9826099887</a><br/>\n            <strong>Order Date & Time:</strong> 7/10/2026, 8:43:20 am\n          </div>\n\n          <div class=\"section-title\">Delivery Address (Madhya Pradesh)</div>\n          <div class=\"info-card\">\n            <strong>House / Building:</strong> House 12, Civil Lines<br/>\n            <strong>Road / Colony / Area:</strong> Near Bus Station Road<br/>\n            <strong>City:</strong> <span style=\"background: #e0f2fe; color: #0369a1; padding: 2px 6px; border-radius: 4px; font-weight: 600;\">Dewas</span><br/>\n            <strong>State:</strong> Madhya Pradesh<br/>\n            <strong>PIN Code:</strong> 455001\n          </div>\n\n          <div class=\"section-title\">Items Ordered</div>\n          <table>\n            <thead>\n              <tr>\n                <th>Product</th>\n                <th style=\"text-align: center;\">Qty</th>\n                <th style=\"text-align: right;\">Rate</th>\n                <th style=\"text-align: right;\">Total</th>\n              </tr>\n            </thead>\n            <tbody>\n              \n    <tr style=\"border-bottom: 1px solid #e2e8f0;\">\n      <td style=\"padding: 10px; font-weight: 500;\">\n        Pure Cotton Rajasthani Bedspread <br/>\n        <span style=\"font-size: 11px; color: #64748b;\">Item ID: NISU-101</span>\n      </td>\n      <td style=\"padding: 10px; text-align: center;\">1</td>\n      <td style=\"padding: 10px; text-align: right;\">₹500</td>\n      <td style=\"padding: 10px; text-align: right; font-weight: 600;\">₹500</td>\n    </tr>\n  \n            </tbody>\n          </table>\n\n          <div class=\"section-title\">Payment & Pricing Breakdown</div>\n          <div class=\"info-card\">\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Base Subtotal:</span>\n              <span>₹500</span>\n            </div>\n            <div style=\"display: flex; justify-content: space-between; margin-bottom: 6px;\">\n              <span>Payment Mode:</span>\n              <strong style=\"text-transform: uppercase;\">Online Payment (UPI/Netbanking)</strong>\n            </div>\n            \n            <div style=\"display: flex; justify-content: space-between; color: #16a34a; margin-bottom: 6px;\">\n                    <span>Online Payment Discount:</span>\n                    <span>-₹50</span>\n                  </div>\n            <div style=\"border-top: 1px dashed #cbd5e1; padding-top: 8px; margin-top: 8px; display: flex; justify-content: space-between;\" class=\"total-row\">\n              <span>Final Order Total:</span>\n              <span style=\"color: #10b981;\">₹450</span>\n            </div>\n          </div>\n        </div>\n        <div class=\"footer\">\n          This order notification was automatically generated by the NISUMART E-Commerce Engine.<br/>\n          Recipient Target: nishaldamor03@gmail.com\n        </div>\n      </div>\n    </body>\n    </html>\n  "
+    }
+  ]
+}

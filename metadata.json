@@ -1,0 +1,6 @@
+{
+  "name": "NISUMART - Mobile Indian E-Commerce",
+  "description": "Production-grade, mobile-first e-commerce shopping platform for NISUMART with custom collections, local deals, seamless checkout, and admin panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
